@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -93,6 +97,10 @@ section li {
   margin-bottom: 0.5rem;
 }
 
+section#contacts a {
+  color: rgb(111, 192, 219)
+}
+
 a {
   color: #1a1a2e;
   text-decoration: none;
@@ -121,16 +129,16 @@ footer {
   justify-content: center;
   gap: 1.5rem;
   padding: 1.5rem 2rem;
-  background: #1a1a2e;
-  color: #eee;
+  background: #e8e8e8;
+  color: #333;
 }
 
 footer a {
-  color: #eee;
+  color: #1a1a2e;
 }
 
 footer a:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .rs-logo {
@@ -152,10 +160,5 @@ footer a:hover {
 
   header h1 {
     font-size: 1.5rem;
-  }
-
-  nav ul {
-    flex-direction: column;
-    align-items: center;
   }
 }
